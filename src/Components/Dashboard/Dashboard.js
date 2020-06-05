@@ -61,7 +61,7 @@ class Dashboard extends Component {
               value={search}
               className='search-bar'
               onChange={this.handleSearch}
-              onKeyDown={e => (e.keyCode === 13 ? this.handleSearch(e) : null)}
+              onKeyDown={e => (e.keyCode === 13 ? this.getPosts() : null)}
             />
             <img
               src='/assets/img/search_logo.png'

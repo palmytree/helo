@@ -1,6 +1,7 @@
 .Form {
   width: 80%;
   background-color: lightgrey;
+  border-radius: 10px;
 }
 
 .Form h2 {
