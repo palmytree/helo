@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box !important;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: medium;
+}
+
+.App,
+.Auth,
+.auth-form,
+.form-btns,
+.Nav,
+.nav-link,
+.profile,
+.nav-main,
+.Dashboard,
+.route-cont,
+.search-cont,
+.search-bar-btns-cont,
+.my-post-cont,
+.posts-cont,
+.post-cont,
+.author-cont,
+.Post,
+.post-top,
+.post-body,
+.new-post,
+.post-btn-cont,
+.Form {
+  display: flex;
+}
+
+.Auth,
+.auth-form,
+.Nav,
+.nav-link,
+.profile,
+.nav-main,
+.Dashboard,
+.route-cont,
+.posts-cont,
+.Post,
+.new-post,
+.Form {
+  flex-direction: column;
+}
+
+.App,
+.Auth,
+.auth-form,
+.nav-link,
+.profile,
+.route-cont,
+.search-bar-btns-cont,
+.my-post-cont,
+.Dashboard,
+.new-post,
+.Form {
+  justify-content: center;
+  align-items: center;
+}
+
+.App,
+.Auth {
+  background: linear-gradient(0.25turn, #ff70a6, #ff9770, #ffd670);
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.route-cont {
+  width: 90%;
+  height: 100%;
+}
+
+.nav-cont {
+  width: 10%;
+  height: 100%;
+}
+
+input {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

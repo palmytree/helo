@@ -1,0 +1,39 @@
+.Form {
+  width: 80%;
+  background-color: lightgrey;
+}
+
+.Form h2 {
+  font-size: 3rem;
+  padding: 20px;
+  width: 100%;
+}
+
+.post-btn-cont {
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.new-post {
+  width: 100%;
+}
+
+.new-post input {
+  width: 80%;
+}
+
+#post-btn {
+  width: 100px;
+  height: 50px;
+  font-size: 1.5rem;
+}
+
+.Form img {
+  height: 200px;
+  width: auto;
+}
+
+#post-content {
+  width: 80%;
+  height: 200px;
+}

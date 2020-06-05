@@ -1,0 +1,19 @@
+.Auth {
+  padding: 30px;
+  box-shadow: 0px 4px 30px -5px black;
+  border-radius: 5px;
+}
+
+.Auth h1 {
+  font-size: 3em;
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.Auth input {
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
