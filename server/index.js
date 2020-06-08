@@ -23,6 +23,7 @@ app.post('/api/auth/logout', ctrl.logout)
 
 app.get('/api/posts', ctrl.getPosts)
 app.get('/api/post/:postid', ctrl.getPost)
+app.put('/api/post/:postid', ctrl.editPost)
 app.post('/api/post', ctrl.createPost)
 app.delete('/api/post/:postid', ctrl.deletePost)
 

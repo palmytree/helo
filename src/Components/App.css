@@ -28,7 +28,8 @@ body {
 .post-body,
 .new-post,
 .post-btn-cont,
-.Form {
+.Form,
+.img-post-cont {
   display: flex;
 }
 
@@ -43,7 +44,8 @@ body {
 .posts-cont,
 .Post,
 .new-post,
-.Form {
+.Form,
+.img-post-cont {
   flex-direction: column;
 }
 
@@ -57,7 +59,8 @@ body {
 .my-post-cont,
 .Dashboard,
 .new-post,
-.Form {
+.Form,
+.img-post-cont {
   justify-content: center;
   align-items: center;
 }

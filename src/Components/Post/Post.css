@@ -11,6 +11,7 @@
   background-color: lightgrey;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px black;
+  height: 90%;
 }
 
 .post-top {
@@ -20,16 +21,37 @@
   border-bottom: 1px solid grey;
 }
 
-.post-body {
+.post-body,
+.img-edit-field {
   width: 100%;
 }
 
-.post-img {
+.post-body {
+  height: 80%;
+}
+
+.post-img,
+.img-post-cont {
   width: 40%;
+}
+
+.post-img {
+  height: 80%;
+  width: auto;
+}
+
+
+.img-post-cont {
+  height: 90%;
 }
 
 .post-content {
   width: 60%;
+}
+
+.edit-post-content {
+  width: 100%;
+  height: 90%;
 }
 
 #delete-btn {

@@ -81,5 +81,13 @@ module.exports = {
       posts = await db.delete_post(postid)
 
     res.status(200).send(posts)
+  },
+  editPost: async (req, res) => {
+    const db = req.app.get('db'),
+      { title, img, content } = req.body,
+      { postid } = req.params,
+      post = (await db.edit_post(title, img, content, postid))[0]
+
+    res.status(200).send(post)
   }
 }

@@ -25,6 +25,7 @@ class Nav extends Component {
       })
   }
   render() {
+    console.log(this.props)
     const { profile_pic, username } = this.props
     return (
       <div className='Nav'>
